@@ -1,0 +1,12 @@
+{
+    "id": "uaf5f9793-fa94-47e1-b585-01b0614f9536",
+    "memberName": "member_full_name.....(40 characters max)",
+    "event": "Name of the Event(20)",
+    "date": "YYYY-MM-DD",
+    "startTime": "HH:MM",
+    "endTime": "HH:MM",
+    "venue": "Venue Name..........................(40)",
+    "address": "123 Main St, City, State, ZIP.......(40)",
+    "adults": 20,
+    "children": 30
+}
