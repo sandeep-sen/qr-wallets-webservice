@@ -35,7 +35,7 @@ export class AppController {
       return res.send(qrCodeSVG);
     } catch (error) {
       res.set('Content-Type', 'application/json');
-      return res.status(500).json({
+      return res.status(HttpStatus.INTERNAL_SERVER_ERROR).json({
         error: 'Failed to generate QR code',
         message: error.message
       });
